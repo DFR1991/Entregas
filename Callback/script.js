@@ -1,7 +1,4 @@
-const gastoConIva = (num)=>{
-    let montoIva = `Total Iva: ${num + num *0.21}`;
-    return montoIva;
-}
+const gastoConIva = (num)=>`Total +Iva: ${num + num *0.21}`;
 
 const map = (arrNum, Callback)=>{
     let arrMontos = [];
