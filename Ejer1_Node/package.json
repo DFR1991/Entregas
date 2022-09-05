@@ -1,0 +1,14 @@
+{
+  "name": "desafio4",
+  "version": "1.0.0",
+  "description": "desafio 4 nodejs ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "json-server --watch db.json"
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
